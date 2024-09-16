@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTiming.DotNet.Core", "ServerTiming.DotNet.Core\ServerTiming.DotNet.Core.csproj", "{99D9F965-E2E0-40B6-A82A-06B64435BEA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTiming.DotNet.ASPNET.NetFramework4_7_2", "ServerTiming.DotNet.ASPNET.NetFramework4_7_2\ServerTiming.DotNet.ASPNET.NetFramework4_7_2.csproj", "{9BD8E60C-AE5C-4915-B1C5-4AADFC0192C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99D9F965-E2E0-40B6-A82A-06B64435BEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D9F965-E2E0-40B6-A82A-06B64435BEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D9F965-E2E0-40B6-A82A-06B64435BEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D9F965-E2E0-40B6-A82A-06B64435BEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD8E60C-AE5C-4915-B1C5-4AADFC0192C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD8E60C-AE5C-4915-B1C5-4AADFC0192C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD8E60C-AE5C-4915-B1C5-4AADFC0192C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD8E60C-AE5C-4915-B1C5-4AADFC0192C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
