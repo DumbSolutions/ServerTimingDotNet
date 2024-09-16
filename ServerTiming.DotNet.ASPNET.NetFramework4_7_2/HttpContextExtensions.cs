@@ -7,7 +7,12 @@ namespace ServerTiming.DotNet.NetFramework4_7_2
     {
         public static PerformanceTimer GetTimer()
         {
-            return HttpContext.Current.Items.GetServerResponseTimer();
+            return GetTimer(HttpContext.Current);
+        }
+
+        public static PerformanceTimer GetTimer(HttpContext context)
+        {
+            return context.Items.GetServerResponseTimer();
         }
     }
 }
