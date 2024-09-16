@@ -3,6 +3,9 @@
     <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props"
             Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
     <PropertyGroup>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+    <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
         <ProjectGuid>{9BD8E60C-AE5C-4915-B1C5-4AADFC0192C3}</ProjectGuid>
@@ -36,20 +39,20 @@
         <Reference Include="System"/>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
-        <Reference Include="System.Web" />
+        <Reference Include="System.Web"/>
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="HttpContextExtensions.cs" />
-        <Compile Include="HttpResponseWrapper.cs" />
-        <Compile Include="TimingModule.cs" />
+        <Compile Include="HttpContextExtensions.cs"/>
+        <Compile Include="HttpResponseWrapper.cs"/>
+        <Compile Include="TimingModule.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\ServerTiming.DotNet.Core\ServerTiming.DotNet.Core.csproj">
-        <Project>{99d9f965-e2e0-40b6-a82a-06b64435bea1}</Project>
-        <Name>ServerTiming.DotNet.Core</Name>
-      </ProjectReference>
+        <ProjectReference Include="..\ServerTiming.DotNet.Core\ServerTiming.DotNet.Core.csproj">
+            <Project>{99d9f965-e2e0-40b6-a82a-06b64435bea1}</Project>
+            <Name>ServerTiming.DotNet.Core</Name>
+        </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

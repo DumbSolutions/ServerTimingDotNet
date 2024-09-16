@@ -1,0 +1,2 @@
+nuget pack ServerTiming.DotNet.ASPNET.NetFramework4_7_2/ServerTiming.DotNet.ASPNET.NetFramework4_7_2.csproj -OutputDirectory publish
+dotnet pack ServerTiming.DotNet.Core/ServerTiming.DotNet.Core.csproj --output publish
